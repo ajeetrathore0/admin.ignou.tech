@@ -1,0 +1,352 @@
+@media (max-width:500px) {
+    * {
+        cursor: none !important;
+    }
+
+    html {
+        height: 100vh;
+    }
+
+    body,
+    html {
+        margin-top: 22px;
+    }
+
+    #topmenu div.topmenu .mainlogo img {
+        width: 100px;
+    }
+
+    .notification img {
+        width: 20px;
+        background: #dcdfda;
+    }
+
+    .menulist ul li {
+
+        padding: 10px;
+    }
+
+    .menulist ul li span img {
+        width: 20px;
+    }
+
+    .menulist ul li span {
+        font-size: 17px;
+    }
+  
+
+
+    .searchbar {
+        transform: translateY(-10px);
+        width: max-content;
+        h1{
+            font-size: smaller !important;
+        }
+    }
+
+    .image-slider {
+        transform: translateY(0px) !important;
+        width: 90vw !important;
+        min-height: 237px !important;
+    }
+
+    .slider-button {
+
+        padding: 6px 12px !important;
+    }
+
+    .options {
+        width: 90vw !important;
+        margin: 10px 0px;
+    }
+
+    .options ul li span img {
+
+        width: 16px;
+    }
+
+    .options ul li span p {
+
+        font-size: 12px;
+    }
+
+    .videosource {
+        width: 90vw !important;
+        margin: 4px;
+        padding: 16px;
+    }
+
+    .videosource .videosource img {
+        width: 50px;
+    }
+
+    .videolist h3 {
+        font-size: 15px;
+        width: max-content;
+    }
+
+    .videolist p {
+        font-size: 10px;
+    }
+
+    .videolist i {
+        font-size: 10px;
+    }
+
+    .videosourcelogo {
+        font-size: 14px;
+    }
+
+    .videosourcelogo img {
+        width: 22px;
+    }
+
+
+    #ignoubooktitle i,
+    #ignoubooktitle p {
+        display: flex;
+        padding: 0px 3px;
+        gap: 10px;
+
+    }
+
+    #ignoubooktitle {
+        font-size: 15px;
+
+    }
+
+    .assignmentquestion .type span:nth-child(2) {
+        font-size: 13px !important;
+    }
+
+    .freeandpaid {
+        font-size: 20px;
+    }
+
+    .solveassignmentsfiles {
+
+        grid-template-columns: 150px 150px;
+    }
+
+    .gradeform {
+        flex-wrap: wrap;
+    }
+
+    .gradeform .program select {
+        width: 80vw
+    }
+
+    .gradeform input {
+        width: 50vw
+    }
+
+    .gradeform input[type='submit'] {
+        width: calc(30vw - 20px)
+    }
+
+    .gradeform label {
+        padding: 5px
+    }
+
+    .fullmarksheet .numbers span p:nth-child(3) {
+        width: 63px !important;
+    }
+
+    .fullmarksheet .numbers span p:nth-child(4) {
+        width: 65px;
+    }
+
+    .fullmarksheet .numbers span p:nth-child(2) {
+        width: 79px;
+    }
+
+    .fullmarksheet #assignmentstatus .numbers span p:nth-child(2) {
+        width: 126px;
+    }
+
+    .fullmarksheet #assignmentstatus .numbers span p:nth-child(4) {
+        width: 74px;
+    }
+
+    .fullmarksheet #assignmentstatus .numbers span p:nth-child(1) {
+        width: 70px;
+    }
+
+    .fullmarksheet .marks {
+        font-size: 9px;
+    }
+
+    .fullmarksheet .numbers span p:nth-child(1) {
+        width: 78px;
+    }
+
+    .fullmarksheet .personalinfo span b {
+        width: 76px
+    }
+
+    .fullmarksheet {
+        padding: 0px;
+        scale: .9
+    }
+
+    .upersidearea .slogan {
+        font-size: 11px
+    }
+
+    .upersidearea img {
+        width: 70px
+    }
+
+    .upersidearea .slogan h1 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .fullmarksheet .personalinfo {
+        font-size: 11px
+    }
+
+    .fullmarksheet .title {
+        width: 69px;
+    }
+
+    #assignmentimg .book {
+        flex-direction: column;
+        background: -webkit-linear-gradient(rgb(109, 100, 100), rgb(84, 84, 105));
+        background: transparent;
+        width: 100vw;
+    }
+
+    #assignmentimg h4 i {
+        font-style: normal;
+        font-family: monospace;
+    }
+
+    #assignmentimg {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    #assignmentimg img {
+        width: 50vw;
+        height: auto;
+
+    }
+
+    #searchbar {
+        width: 30px !important;
+        background: transparent !important;
+        position: absolute !important;
+        right: 90px !important;
+        padding: 0;
+        top: 18px;
+    }
+
+    #searchbar img {
+        margin: 5px
+    }
+
+    .pagemenubar {
+        position: fixed;
+        z-index: 1;
+        background: var(--mainbg);
+        padding-right: 0px;
+        transform: translateX(-300px);
+        padding-top: 20px;
+    }
+
+    .toggle .pagemenubar {
+        transform: translateX(0px);
+    }
+
+    #allservices {
+
+        a {
+
+            width: 80vw;
+
+        }
+    }
+
+    .videosource .videolist {
+        cursor: auto
+    }
+
+    .pyp .selectdetails {
+        width: 80vw;
+    }
+
+    .homepartition {
+        padding-top: 18px;
+    }
+
+    .pagecontent {
+        padding-top: 0;
+    }
+
+    #search input {
+        font-size: 15px;
+
+    }
+
+    .solveassignmentsfiles .book h3 {
+        width: 100% !important;
+        margin: 10px 3px;
+        border-bottom: 1px solid #525050;
+        padding: 3px;
+    }
+
+    .solveassignmentsfiles .book span {
+        width: 100%;
+        h4{
+            background: fixed;
+        }
+        h4:nth-child(2) {
+            margin: 4px 0;
+            border: 1px solid;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        h4:nth-child(3) {
+            padding: 8px 0px;
+            border-bottom: 1px solid;
+            margin: 9px 0;
+            border-radius: 5px;
+        }
+    }
+
+}
+
+@media (max-width:876px) {
+    #searchbar {
+        width: 40px;
+        background: transparent;
+        position: absolute;
+        right: 110px;
+    }
+
+    section#topmenu {
+        padding: 15px;
+    }
+}
+
+@media (min-width:501px) {
+    .pagemenubar {
+        transform: translateX(0px) !important;
+
+    }
+
+    .menubar {
+        display: none !important;
+    }
+
+    .pagecontent {
+        padding-top: 0;
+    }
+
+    #toplinks {
+        margin-bottom: 15px;
+    }
+}
